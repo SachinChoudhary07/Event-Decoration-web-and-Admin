@@ -1,0 +1,4 @@
+import {catalog,siteUrl} from '@/lib/server';import {Collection} from '@/components/catalog';import {notFound} from 'next/navigation';
+export const dynamic='force-dynamic';
+export async function generateMetadata({params}:{params:Promise<{slug:string}>}){const {slug}=await params;const data=await catalog();const c=data.categories.find(c=>c.slug===slug);return {title:c?`${c.name} Decorations | ${data.settings.name}`:'Category not found',description:c?.description,alternates:{canonical:`${siteUrl()}/category/${slug}`},openGraph:{title:c?.name,description:c?.description,images:c?.cover?[new URL(c.cover,siteUrl()).href]:[]},twitter:{images:c?.cover?[new URL(c.cover,siteUrl()).href]:[]}}}
+export default async function Page({params}:{params:Promise<{slug:string}>}){const {slug}=await params;const data=await catalog();if(!data.categories.some(c=>c.slug===slug))notFound();return <Collection data={data} categorySlug={slug}/>}

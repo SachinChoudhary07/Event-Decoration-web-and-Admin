@@ -1,0 +1,1 @@
+import {catalog,siteUrl} from '@/lib/server';export const dynamic='force-dynamic';export default async function sitemap(){const c=await catalog();return ['','/gallery','/contact',...c.categories.map(x=>'/category/'+x.slug),...c.decorations.map(x=>'/decoration/'+x.slug)].map(p=>({url:siteUrl()+p}))}
