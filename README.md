@@ -8,25 +8,21 @@ Mobile-first event decoration catalogue with a built-in admin studio. Customers 
 
 ## Screenshots
 
-### Home (mobile)
 
-![Home on mobile](docs/screenshots/home-mobile.png)
+![Home on desktop]<img width="1895" height="829" alt="image" src="https://github.com/user-attachments/assets/5f21fc5d-8236-40e9-a4ce-3c972708efae" />
+<img width="1899" height="825" alt="image" src="https://github.com/user-attachments/assets/6f0bb849-d846-4261-89d9-b0cd073c25e2" />
 
-### Home (desktop)
-
-![Home on desktop](docs/screenshots/home-desktop.png)
-
-### Category → designs
-
-![Birthday category](docs/screenshots/category-mobile.png)
+<img width="1894" height="822" alt="image" src="https://github.com/user-attachments/assets/8d1d1639-f0df-46c8-8ce9-a5d0d26510f6" />
 
 ### Design detail + WhatsApp booking
 
-![Design detail](docs/screenshots/detail-mobile.png)
+![Design detail]<img width="320" height="691" alt="image" src="https://github.com/user-attachments/assets/50240575-b8b0-475a-acd3-2143548d60f0" />
 
-### Admin login
 
-![Admin login](docs/screenshots/admin-login.png)
+### Admin
+
+<img width="1894" height="824" alt="image" src="https://github.com/user-attachments/assets/07ce7fed-ef75-417a-8203-20142a818298" />
+
 
 ---
 
