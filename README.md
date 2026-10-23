@@ -8,6 +8,9 @@ Mobile-first event decoration catalogue with a built-in admin studio. Customers 
 
 ## Screenshots
 
+<img width="1448" height="1086" alt="Celebration Decor Website Showcase" src="https://github.com/user-attachments/assets/71311d92-4232-41eb-a7c7-3554a6e67080" />
+
+
 
 ![Home on desktop]<img width="1895" height="829" alt="image" src="https://github.com/user-attachments/assets/5f21fc5d-8236-40e9-a4ce-3c972708efae" />
 <img width="1899" height="825" alt="image" src="https://github.com/user-attachments/assets/6f0bb849-d846-4261-89d9-b0cd073c25e2" />
